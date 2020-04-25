@@ -2,9 +2,9 @@ from tokenizers import ByteLevelBPETokenizer
 from os.path import join
 
 MAX_LEN = 192
-TRAIN_BATCH_SIZE = 32
-VALID_BATCH_SIZE = 16
-EPOCHS = 10
+TRAIN_BATCH_SIZE = 2
+VALID_BATCH_SIZE = 8
+EPOCHS = 5
 BERT_PATH = '../input/bert-base-uncased/'
 ROBERTA_PATH = '../input/robertabase/'
 ROBERTA_CONFIG = join(ROBERTA_PATH, 'roberta-base-config.json')
